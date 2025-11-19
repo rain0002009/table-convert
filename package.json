@@ -14,6 +14,7 @@
 	"dependencies": {
 		"@univerjs/preset-sheets-core": "^0.12.0",
 		"@univerjs/presets": "^0.12.0",
+		"es-toolkit": "^1.42.0",
 		"react": "^19.1.1",
 		"react-dom": "^19.1.1"
 	},
