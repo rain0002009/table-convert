@@ -17,7 +17,7 @@ export default defineSheet({
     },
     1: {
       2: {
-        f: '=TO_ANTD_COLUMNS(A2,B2)'
+        f: '=TO_ANTD_COLUMNS(A2,B2, 1)'
       }
     }
   },

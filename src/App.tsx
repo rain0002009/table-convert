@@ -28,6 +28,9 @@ function App() {
       ],
     })
     univerAPI.createWorkbook(data)
+    const fWorkbook = univerAPI.getActiveWorkbook()
+    const fWorksheet = fWorkbook?.getActiveSheet()?.getSheet()
+    Reflect.set(window, 'fWorksheet', fWorksheet)
     return () => {
       univerAPI.dispose()
     }
