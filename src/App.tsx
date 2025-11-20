@@ -14,7 +14,7 @@ function App() {
       locales: {
         [LocaleType.ZH_CN]: mergeLocales(
           UniverPresetSheetsCoreZhCN,
-          locales[0],
+          ...locales,
         ),
       },
       presets: [

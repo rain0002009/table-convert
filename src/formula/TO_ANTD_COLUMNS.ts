@@ -14,8 +14,8 @@ import { camelCase } from 'es-toolkit'
 export const antdZhCN = {
   formula: {
     TO_ANTD_COLUMNS: {
-      description: '转化为antd的表格行',
-      abstract: 'antd columns',
+      description: '根据传入的参数，转化为antd的表格行',
+      abstract: '转为antd的表格行',
       links: [],
       functionParameter: {
         label: {
